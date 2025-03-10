@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* import React,{ useState } from "react"
+
+  function App() {
+    const boards=[
+    {
+      id:1,
+      title:"test 1",
+      tasks:["task 1" ,"task 2" ]
+    },
+    {
+      id:2,
+      title:"test 2",
+      tasks:["task 1","task 2"]
+    }
+  ];  //adding all board
+
+  const [allBoard, setAllBoard]=useState(boards);
+
+  const addTasks=(task)=> {
+    const newBoards=[...allBoard].map((ele)=>{
+      if(ele.id===task.id){
+        return {
+          ...ele,tasks:[...ele.tasks,"test Task"]
+        }
+      }
+      return ele;
+    });
+    setAllBoard(newBoards)
+  
+  };
+
+  return (
+    <div className="App">
+      {
+        allBoard.map((ele)=>(
+          <div  key={ ele.id}  style={{border:"1px solid black", width:200,height:300}}>
+            <p>{ele.title}</p>
+            <button onClick={()=>{addTasks(ele);}}>Add </button>
+            {ele.tasks.map((task)=>(
+              <p>{task}</p>
+            ))}
+            </div>
+        ))
+      }
+      
+    </div>
+   
+  );
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+export default App; */
