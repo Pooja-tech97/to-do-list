@@ -13,8 +13,8 @@ root.render(
   </BoardProvider>
 );
 
-//wrap app with provider
-//or--------------------------
+//-------------------another method for board provider-----------
+
 
   /*
 import React,{ useContext ,useState } from "react"
