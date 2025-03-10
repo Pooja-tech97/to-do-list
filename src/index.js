@@ -13,7 +13,7 @@ root.render(
   </BoardProvider>
 );
 
-//-------------------another method for board provider-----------
+//------------------- another simple  method for board provider-----------
 
 
   /*
